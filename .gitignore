@@ -1,0 +1,64 @@
+```
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
+dist/
+build/
+target/
+
+# Environment variables
+.env
+.env.local
+*.env.*
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python specific
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Coverage reports
+.coverage
+htmlcov/
+.coverage.*
+coverage.xml
+
+# MyPy cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# PyTest cache
+.pytest_cache/
+
+# Frontend build
+frontend/dist/
+frontend/build/
+
+# ML models (if they're large binary files)
+*.model
+*.pickle
+*.joblib
+```
